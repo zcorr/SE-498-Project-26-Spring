@@ -25,8 +25,7 @@ public class StringService : IStringService
         int left = 0;
         int right = charArray.Length - 1;
 
-        while (left < right)
-        {
+        while (left < right){
             char temp = charArray[left];
             charArray[left] = charArray[right];
             charArray[right] = temp;
